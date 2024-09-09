@@ -335,9 +335,6 @@ private void AlignmentMenuFlyoutItem_Click(object sender, RoutedEventArgs e)
 
 A [SplitButton](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.splitbutton) control has two parts that can be invoked separately. One part behaves like a standard button and invokes an immediate action. The other part invokes a flyout that contains additional options that the user can choose from.
 
-> [!NOTE]
-> When invoked with touch, the split button behaves as a drop down button; both halves of the button invoke the flyout. With other methods of input, a user can invoke either half of the button separately.
-
 The typical behavior for a split button is:
 
 - When the user clicks the button part, handle the **Click** event to invoke the option that's currently selected in the drop down.
